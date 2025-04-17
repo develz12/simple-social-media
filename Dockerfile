@@ -25,4 +25,5 @@ RUN ./install.sh
 RUN chown www-data:www-data /var/www/sosmed -R
 RUN chmod -R 755 /var/www/sosmed
 EXPOSE 8000
-CMD php artisan serve --host=0.0.0.0 --port=8000
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
+
