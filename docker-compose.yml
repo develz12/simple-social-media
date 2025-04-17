@@ -1,0 +1,6 @@
+services:
+  web:
+    image: ${DOCKER_USER}/username_adinusa-simple-social-media
+    ports:
+      - "8000:8000"
+
