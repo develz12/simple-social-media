@@ -14,7 +14,7 @@ composer install
 cp -n .env.example .env || true
 php artisan key:generate
 
-# Ubah konfigurasi database
+# Ubah konfigurasi databae
 sed -i 's/DB_HOST=127.0.0.1/DB_HOST=172.17.0.2/' .env
 sed -i 's/DB_PASSWORD=/DB_PASSWORD=password/' .env
 
