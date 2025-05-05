@@ -1,6 +1,6 @@
-services:
-  web:
-    image: ${DOCKER_USER}/julang-simple-social-media
-    ports:
-      - "8000:8000"
+services: 
+ web: 
+  image: ${DOCKER_USER}/julang-simple-social-media
+  ports: 
+   - "8000:8000"
 
