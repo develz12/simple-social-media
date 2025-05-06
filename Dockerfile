@@ -41,6 +41,6 @@ RUN chmod +x install.sh
 
 EXPOSE 8000
 
-# Jalankan install.sh saat container start
+# Jalankan install.sh saat container star
 CMD ["./install.sh"]
 
