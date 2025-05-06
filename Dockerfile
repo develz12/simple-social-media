@@ -19,7 +19,7 @@ RUN apt update -y && \
 RUN curl -sS https://getcomposer.org/installer -o composer-setup.php && \
     php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
-# Buat direktori proyek dan copy semua file
+# Buat direktori proyek dan copy semua fil
 RUN mkdir -p /var/www/sosmed
 WORKDIR /var/www/sosmed
 ADD . /var/www/sosmed
