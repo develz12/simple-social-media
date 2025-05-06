@@ -39,7 +39,7 @@ RUN a2dissite 000-default.conf && a2ensite sosmed.conf
 # Jalankan script install Laravel
 RUN chmod +x install.sh && ./install.sh
 
-# Set ownership dan permission terakhir
+# Set ownership dan permission terakhi
 RUN chown -R www-data:www-data /var/www/sosmed && \
     chmod -R 755 /var/www/sosmed
 
